@@ -2,4 +2,4 @@
 creazione sito web per cliente reale corso web design
 ## Scopo del repository
 Questo __repository__ serve a dimostrare come funziona github
-[fancy-macaron.netlify](fancy-macaron-687e3e.netlify.app)
+# [fancy-macaron.netlify](fancy-macaron-687e3e.netlify.app)

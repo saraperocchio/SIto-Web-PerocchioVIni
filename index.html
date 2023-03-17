@@ -3,38 +3,61 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+    <title>Pagina di esempio</title>
     <style>
-      /* Basic CSS styles */
+      /* Imposta lo sfondo e il font */
       body {
-        font-family: sans-serif;
+        background-color: #f7f7f7;
+        font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
       }
       
-      /* Responsive CSS styles */
-      @media screen and (max-width: 768px) {
-        /* Styles for screens less than 768px wide */
-        h1 {
-          font-size: 24px;
-        }
-        p {
-          font-size: 16px;
-        }
+      /* Imposta lo stile dell'intestazione */
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
       }
-      @media screen and (min-width: 768px) {
-        /* Styles for screens 768px or wider */
-        h1 {
-          font-size: 48px;
-        }
-        p {
-          font-size: 24px;
-        }
+      
+      /* Imposta lo stile del contenuto principale */
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      /* Imposta lo stile dei link */
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #777;
+      }
+      
+      /* Imposta lo stile del piè di pagina */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <p>This is a base HTML5 page.</p>
+    <header>
+      <h1>Titolo dell'intestazione</h1>
+    </header>
+    <main>
+      <h2>Titolo del contenuto principale</h2>
+      <p>Questo è un paragrafo di esempio. Puoi modificare questo contenuto come desideri.</p>
+      <p>Per maggiori informazioni, visita il nostro <a href="#">sito web</a>.</p>
+    </main>
+    <footer>
+      <p>© 2023 Nome della tua azienda. Tutti i diritti riservati.</p>
+    </footer>
   </body>
 </html>
+

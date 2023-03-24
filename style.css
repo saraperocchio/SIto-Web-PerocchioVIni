@@ -1,9 +1,29 @@
-body {
-  background-color: powderblue;
+header {
+	background-color: #ffffff;
 }
-h1 {
-  color: blue;
+nav {
+	background-color: #1a1a1a;
 }
-p {
-  color:violet;
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li {
+	margin: 0 20px;
+}
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	transition: all 0.3s ease;
+}
+nav ul li a:hover {
+	background-color: #ffffff;
+	color: #1a1a1a;
 }

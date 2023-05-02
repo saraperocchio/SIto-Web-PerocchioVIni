@@ -1,4 +1,4 @@
-let slider = document.querySelector('.slider');
+let slider = document.querySelector(".slider");
 let counter = 1;
 let width = slider.offsetWidth / 3;
 setInterval(() => {

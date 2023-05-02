@@ -8,4 +8,4 @@ Questo __repository__ serve a creare un nuovo sito monopagina per l'azienda
 * _Descrizione dell'azienda (chi siamo, dove trovarci)_
 * _Descrizione dei prodotti e servizi offerti dall'azienda_
 * _Contatti e profili social dell'azienda_
-* _[https://fancy-macaron-687e3e.netlify.app/](fancy-macaron-687e3e.netlify.app)_
+* _[https://fancy-macaron-687e3e.netlify.app/](https://fancy-macaron-687e3e.netlify.app/)_

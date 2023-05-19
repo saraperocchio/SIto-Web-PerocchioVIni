@@ -8,60 +8,106 @@
   <title>Perocchiovini.it</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
-  <script src="js/script.js"></script>
+  <script src="script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
   <header>
-<div class="hamburger-menu">
-  <div class="hamburger-icon"></div>
-</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon"></div>
+    </div>
     <nav>
       <div class="header-container">
         <div class="logo-container">
 
         </div>
         <ul>
-           <div class="logo">
-          <img src="https://www.perocchiovini.com/graphics/logo-perocchiovini.png" alt="logo">
-        </div>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Prodotti</a></li>
+          <div class="logo">
+            <img src="https://www.perocchiovini.com/graphics/logo-perocchiovini.png" alt="logo">
+          </div>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#prodotti">Prodotti</a></li>
           <li><a href="#">Servizi</a></li>
-          <li><a href="#">Chi Siamo</a></li>
-          <li><a href="#">Contatti</a></li>
+          <li><a href="#chi-siamo">Chi Siamo</a></li>
+          <li><a href="#informazioni-azienda">Contatti</a></li>
           <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
-    <div class="slider-container">
-      <div class="slider">
-        <img src="https://www.perocchiovini.com/graphics/galleria-fotografica-1.jpg">
-        <img src="https://www.perocchiovini.com/graphics/galleria-fotografica-4.jpg">
-        <img src="https://www.perocchiovini.com/graphics/galleria-fotografica-7.jpg">
-        <img src="https://www.perocchiovini.com/graphics/galleria-fotografica-6.jpg">
-        <img src="https://www.perocchiovini.com/graphics/galleria-fotografica-8.jpg">
+    <div id="home">
+      <div class="slider-container">
+        <div class="slider">
+
+          <img src="https://github.com/saraperocchio/Test-web-design/blob/main/images/slider%201.jpg?raw=true" alt="">
+          <img src="https://github.com/saraperocchio/Test-web-design/blob/main/images/slider%202.jpg?raw=true" alt="">
+          <img src="https://github.com/saraperocchio/Test-web-design/blob/main/images/slider%203.jpg?raw=true" alt="">
+          <div class="gray-box">
+            <h2>L'azienda agricola Perocchio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae est odio. Nulla auctor efficitur mauris, nec euismod sem elementum quis. Sed vel massa turpis.</p>
+          </div>
+        </div>
+        <button class="slider-button prev-button">&#10094;</button>
+        <button class="slider-button next-button">&#10095;</button>
       </div>
     </div>
+    <div class="slider-navigation">
+      <button class="prev-btn">&lt;</button>
+      <button class="next-btn">&gt;</button>
+    </div>
+    </div>
     <main>
-      <div class="main">
-        <p>L’azienda Agricola Perocchio da tre generazioni vinifica e imbottiglia i suoi vini ottenuti dalle proprie uve utilizzando un metodo di coltivazione antico e tradizionale, a partire dalla potatura alla vendemmia; tutte le uve vengono raccolte manualmente, rispettando la fase di pressatura dei mosti, i tempi necessari per la fermentazione e i processi di affinamento, riuscendo ad ottenere, grazie ad un accurato lavoro, vini di grande struttura e corposità.
+      <div id=chi-siamo>
+        <div class="container">
+          <div class="box">
+            <h2>La nostra storia</h2>
+            <p>L’azienda Agricola Perocchio da tre generazioni vinifica e imbottiglia i suoi vini ottenuti dalle proprie uve utilizzando un metodo di coltivazione antico e tradizionale, a partire dalla potatura alla vendemmia; tutte le uve vengono raccolte manualmente, rispettando la fase di pressatura dei mosti, i tempi necessari per la fermentazione e i processi di affinamento, riuscendo ad ottenere, grazie ad un accurato lavoro, vini di grande struttura e corposità.
 
-          I terreni dell’azienda sorgono nel cuore del Monferrato, in particolare nei Comuni di Vaglio Serra e Vinchio (AT), zone rinomate come tra le migliori del Piemonte per i vini D.O.C.G. e D.O.C. di produzione
-        </p>
-      </div>
+              I terreni dell’azienda sorgono nel cuore del Monferrato, in particolare nei Comuni di Vaglio Serra e Vinchio (AT), zone rinomate come tra le migliori del Piemonte per i vini D.O.C.G. e D.O.C. di produzione.
+
+              Questi territori, inoltre, dal 2014 sono stati riconosciuti ed iscritti dall’ Unesco nella lista dei luoghi Patrimonio Mondiale dell’umanità, con la denominazione di “Paesaggi Vitivinicoli di Langhe, Roero e Monferrato”.
+
+              La nostra azienda a conduzione familiare, comprende circa 17 ettari di terreno vitato dal quale si ricavano vini genuini che esprimono tutte le caratteristiche e le note tipiche delle diverse annate da cui provengono le uve.</p>
+          </div>
+        </div>
+        <section id="prodotti">
+          <div class="prodotti">
+            <h2>I nostri vini</h2>
+
+            <div class="row">
+              <div class="col-md-4">
+                <img src="https://github.com/saraperocchio/Test-web-design/blob/main/images/vini/barbera-dasti-la-ca-da-ruej.jpg" alt="Prodotto 1">
+                <h3>Prodotto 1</h3>
+                <p>Descrizione del prodotto 1</p>
+              </div>
+              <div class="col-md-4">
+                <img src="path/to/immagine_prodotto_2.jpg" alt="Prodotto 2">
+                <h3>Prodotto 2</h3>
+                <p>Descrizione del prodotto 2</p>
+              </div>
+              <div class="col-md-4">
+                <img src="path/to/immagine_prodotto_3.jpg" alt="Prodotto 3">
+                <h3>Prodotto 3</h3>
+                <p>Descrizione del prodotto 3</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
     </main>
     <footer>
-      <div class="informazioni-azienda">
+
+      <div id="informazioni-azienda">
         <p>Perocchiovini
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-pinterest"></i>
         </p>
       </div>
+
     </footer>
 </body>
 
-</html>
+
 
 
 

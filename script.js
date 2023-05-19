@@ -23,3 +23,4 @@ window.addEventListener("resize", () => {
   slider.style.transform = `translateX(-${(slideIndex - 1) * 100}%)`;
 });
 
+

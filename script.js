@@ -1,10 +1,25 @@
-let slider = document.querySelector(".slider");
-let counter = 1;
-let width = slider.offsetWidth / 3;
-setInterval(() => {
-  if (counter > 2) {
-    counter = 0;
+let intervalId;
+const slider = document.querySelector(".slider");
+const prevButton = document.querySelector(".prev-button");
+const nextButton = document.querySelector(".next-button");
+let slideIndex = 1;
+
+prevButton.addEventListener("click", () => {
+  if (slideIndex > 1) {
+    slideIndex--;
+    slider.style.transform = `translateX(-${(slideIndex - 1) * 100}%)`;
   }
-  slider.style.transform = `translateX(${-width * counter}px)`;
-  counter++;
-}, 4000);
+});
+
+nextButton.addEventListener("click", () => {
+  if (slideIndex < slider.children.length) {
+    slideIndex++;
+    slider.style.transform = `translateX(-${(slideIndex - 1) * 100}%)`;
+  }
+});
+
+window.addEventListener("resize", () => {
+  slideIndex = 1;
+  slider.style.transform = `translateX(-${(slideIndex - 1) * 100}%)`;
+});
+

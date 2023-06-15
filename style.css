@@ -49,7 +49,7 @@ a{
 
 .header {
   background-color: var(--menu-bg);
-posiyion:fixed;
+position:fixed;
   top: 0;
   left: 0;
   z-index: 9999;

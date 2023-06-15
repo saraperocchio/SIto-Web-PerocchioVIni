@@ -1,3 +1,5 @@
+/*hamburger menu*/
+
 let item = document.querySelector(".icon-hamburger");
 item.addEventListener("click", function () {
   document.body.classList.toggle("menu-open");
@@ -20,4 +22,3 @@ document.querySelector(".back-to-top").addEventListener("click", function (e) {
     behavior: "smooth"
   });
 });
-

@@ -196,7 +196,7 @@ position:fixed;
 .carousel-caption{
  position: absolute;
  top:50%;
- left: 0;
+ justify-content: center;
 }
 
 .carousel-caption h5{

@@ -1,5 +1,9 @@
 /*elementi esterni*/
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:wght@100&display=swap");
+
+/*da cancellare*/
+@import url(https://github.com/saraperocchio/Test-web-design/tree/main/images);
+
 /*formattazione base della pagina*/
 body; html{
   margin: 0;
@@ -55,6 +59,9 @@ body; html{
 .nav-menu {
   padding: 10px;
   margin: 0;
+}
+.nav-menu a:hover {
+  color:black;
 }
 .nav-menu li {
   display: inline-block;
@@ -123,7 +130,7 @@ body; html{
 }
 /*stili di testo*/
 h1, .text-1{
-  font-size:3.5rem;
+  font-size:3rem;
     margin-bottom:0.5rem;
   font-weight: bold;
   font-family: "Concert One", cursive;
@@ -149,17 +156,23 @@ a{
 .button{
   font-size: 1rem;
   text-transformation: uppercase;
-  background: black;
-  color:grey;
+  background: #5c0619;
+  color:white;
   border-radius: 4px;
   font-weight:600;
   text-decoration:none;
   padding:0.5rem 0.5rem;
 }
+
+.button:hover{
+  color:grey;
+  
+}
 .button-hover{
   background:red;
   text-decoration:none;
   padding:0.5rem 0.5rem;
+  
 }
 
 /*chi-siamo*/
@@ -292,6 +305,9 @@ a{
   transition: opacity 0.3s, visibility 0.3s;
 }
 
+.back-to-top:hover{
+ color:#5c0619;
+}
 .back-to-top.show {
   opacity: 1;
   visibility: visible;
@@ -366,7 +382,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #555;
+  background-color: ;
 }
 
 
@@ -377,12 +393,17 @@ footer {
   text-align: center;
   display:flex;
   width:100%;
-  height:30px;
-  padding: 2px;
+  height:50px;
+  padding: 10px;
   color:white;
   justify-content:center;
 }
-
+footer a {
+  color: white; 
+}
+footer a:hover {
+  color: white; 
+}
 
 /*mediaquery*/
 /*media-form*/
@@ -413,4 +434,3 @@ footer {
     margin-top: 10px;
   }
 }
-

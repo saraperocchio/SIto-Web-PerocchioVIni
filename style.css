@@ -59,7 +59,7 @@ posiyion:fixed;
 }
 .header-content{
   max-width: 1200px;
-  width: %;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

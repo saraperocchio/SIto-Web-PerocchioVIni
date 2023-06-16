@@ -1,13 +1,6 @@
 /*lente ricerca*/
-document.addEventListener('click', function(event) {
-  var searchIcon = document.getElementById('search-icon');
-  var searchInput = document.getElementById('search-input');
 
-  if (!searchIcon.contains(event.target) && !searchInput.contains(event.target)) {
-    searchInput.style.display = 'none';
-  }
-});
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('click', function(event) {
   var searchIcon = document.getElementById("search-icon");
   var searchInput = document.getElementById("search-input");
 

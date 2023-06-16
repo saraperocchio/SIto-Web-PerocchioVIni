@@ -64,6 +64,32 @@ position:fixed;
   display: flex;
   justify-content: space-between;
 }
+
+/*lente ricerca*/
+
+.search-container {
+  position: relative;
+  z-index:999;
+}
+
+.search-icon {
+ 
+  width: 20px;
+  height: 20px;
+  background: url('fa-solid fa-magnifying-glass fa-fade') center center no-repeat;
+  cursor: pointer;
+}
+
+#search-input {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 /*logo*/
 .header-logo,
 .header-quick {

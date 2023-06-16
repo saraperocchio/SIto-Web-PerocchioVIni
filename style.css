@@ -204,7 +204,13 @@ position:fixed;
 
 }
 
-
+/*il territorio*/
+.il-territorio img{
+  width:100%;
+}
+.il-territorio{
+  height:120vh;
+}
 
 /*prodotti*/
 

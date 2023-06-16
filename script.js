@@ -1,13 +1,13 @@
 /*lente ricerca*/
-document.addEventListener("DOMContentLoaded", function () {
-  var searchIcon = document.getElementById("search-icon");
-  var searchInput = document.getElementById("search-input");
+document.addEventListener('click', function(event) {
+  var searchIcon = document.getElementById('search-icon');
+  var searchInput = document.getElementById('search-input');
 
-  searchIcon.addEventListener("click", function () {
-    searchInput.style.display =
-      searchInput.style.display === "block" ? "none" : "block";
-  });
+  if (!searchIcon.contains(event.target) && !searchInput.contains(event.target)) {
+    searchInput.style.display = 'none';
+  }
 });
+
 
 /*hamburger menu*/
 

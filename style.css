@@ -204,8 +204,12 @@ position:fixed;
 
 }
 
-/*chi-siamo*/
+/*il territorio*/
 
+.il-territorio {
+  width:100%;
+  height: 500px; /* Altezza desiderata dell'immagine */
+}
 
 /*prodotti*/
 

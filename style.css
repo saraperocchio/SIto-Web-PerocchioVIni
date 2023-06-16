@@ -221,10 +221,14 @@ position:fixed;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  height: 100%;
-
-   
+  height: 100%;   
 }
+.product-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
 .title-container{
   
   color:var(--menu-color);

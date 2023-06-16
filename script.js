@@ -1,14 +1,3 @@
-/*lente ricerca*/
-
-document.addEventListener("DOMContentLoaded", function (event) {
-  var searchIcon = document.getElementById("search-icon");
-  var searchInput = document.getElementById("search-input");
-
-  searchIcon.addEventListener("click", function (event.target) {
-    searchInput.style.display =
-      searchInput.style.display === "block" ? "none" : "block";
-  });
-});
 
 
 /*hamburger menu*/

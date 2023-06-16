@@ -26,7 +26,7 @@ document.querySelector(".back-to-top").addEventListener("click", function (e) {
 });
 
 /*visualizzazione script*/
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function (event) {
   i;
   var script = document.createElement("script");
   script.src = "script.js";

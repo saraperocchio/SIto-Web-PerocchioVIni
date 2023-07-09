@@ -1,4 +1,10 @@
-
+/*visualizzazione script*/
+document.addEventListener("DOMContentLoaded", function (event) {
+  i;
+  var script = document.createElement("script");
+  script.src = "script.js";
+  document.body.appendChild(script);
+});
 
 /*hamburger menu*/
 
@@ -24,12 +30,3 @@ document.querySelector(".back-to-top").addEventListener("click", function (e) {
     behavior: "smooth"
   });
 });
-
-/*visualizzazione script*/
-document.addEventListener("DOMContentLoaded", function (event) {
-  i;
-  var script = document.createElement("script");
-  script.src = "script.js";
-  document.body.appendChild(script);
-});
-

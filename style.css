@@ -59,6 +59,7 @@ position:fixed;
 }
 .header-content{
   max-width: 1200px;
+  height:30px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -75,23 +76,24 @@ position:fixed;
   align-items: center;
   color: var(--menu-color);
   text-decoration:none;
-  padding: 3px 10px;
+  padding: 1px 10px;
 }
 
 .logo-container {
 
 }
 .header-logo img {
-  width:100%;
+  width:50%;
   min-width: 4px;
   height: auto;
 }
 .nav-menu {
-  padding: 3px;
+  padding: 1px;
   margin: 0;
+  align-items: center;
 }
 .nav-menu a:hover {
-  color:black;
+  color: #952B39;
 }
 .nav-menu li {
   display: inline-block;
@@ -499,5 +501,4 @@ footer .copyright {
     margin-top: 10px;
   }
 }
-
 

@@ -101,7 +101,7 @@ position:fixed;
 .nav-menu li a{
   color: var(--menu-color);
   opacity: 0.8;
-  display: block;
+  display: block !important;
   padding: 8px;
   font-size: 16px;
   text-decoration:none;

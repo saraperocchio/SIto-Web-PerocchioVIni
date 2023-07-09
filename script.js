@@ -1,11 +1,4 @@
 
-/*visualizzazione script*/
-document.addEventListener("DOMContentLoaded", function(event){
-  console.log(DOM completamente caricato e analizzato);
-var script = document.createElement('script');
-  script.src = 'script.js';
-  document.head.appendChild(script);  
-})
 
 /*hamburger menu*/
 

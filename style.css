@@ -241,6 +241,49 @@ position:fixed;
 
 }
 /*prodotti*/
+
+/*card*/
+.card{
+  width:100%;
+  height:1000px;
+  
+ 
+}
+
+.card-inner{
+position:relative;
+  height:100%;
+  transform-style: preserve-3d;
+  transition:transform 0.5s;
+
+}
+
+.card:hover .card-inner{
+transform:rotateY(180deg);
+}
+
+.card-body{
+position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  backface-visibility: hidden;
+  
+}
+
+.card-body--front{
+background-color:white;
+   backface-visibility: hidden;
+}
+
+.card-body--back{
+  background-color:white;
+transform:rotateY(180deg);
+  
+}
+/*fine card*/
+
+
 .prodotti-container{
    background-image: url("https://github.com/saraperocchio/Test-web-design/blob/main/images/468197.jpg?raw=true");;
   background-size: cover;
@@ -256,12 +299,6 @@ position:fixed;
   align-items: center;
   text-align: justify;
   padding-top:60px;
- 
-  
-}
-.prodotti p{
-  font-size:0.8rem;
- 
   
 }
 .prodotti .col-md-6{
@@ -272,59 +309,11 @@ position:fixed;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 10px;
- height:100%;
+  height: 100%;
   background-color:white;
-  
- 
-  
-} 
-.product-box-inner{
-  position:relative;
-  display:flex;
-  
-  height:100%;
-  width:100%;
-  trasform-style:preserve-3d;
-  transition:transform 0.5s;
-  
-  
-} 
-.product-box:hover .product-box-inner{
-  transform:rotateY(180deg);
-   backface-visibility: hidden;
-  
-} 
+}
 
 
-.product-body{
-  inset:0;
-  display:grid;
-  position: relative;
-  place-items:center;
-  box-size:content-box;
-  
-  border-radius:8px;
- 
-  
-  
-  
-}   
-
-.product-body--front{
- background-color:white;
-  height:100%;
-  
-  
-  
-  
-  
-}  
-.product-body--back{
- position:absolute;
- transform:rotateY(180deg);
-z-index:-1;
- 
-}  
 .title-container{
   
   color:var(--menu-bg);
@@ -341,11 +330,6 @@ z-index:-1;
 }
 .prodotti-immagine{
   width:20%;
-  }
-
-.prodotti-descrizione{
-  width:100%;
-  height:80%;
   }
 /*gallery*/
 .gallery{

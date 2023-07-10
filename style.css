@@ -242,10 +242,12 @@ position:fixed;
 }
 /*prodotti*/
 .prodotti-container{
-   background-image: url("https://github.com/saraperocchio/Test-web-design/blob/main/images/468197.jpg?raw=true");
+   background-image: url("https://github.com/saraperocchio/Test-web-design/blob/main/images/468197.jpg?raw=true");;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width:100%;
+  
   
 }
 .prodotti {
@@ -254,6 +256,7 @@ position:fixed;
   align-items: center;
   text-align: justify;
   padding-top:60px;
+ 
   
 }
 .prodotti .col-md-6{
@@ -264,14 +267,53 @@ position:fixed;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  height: 100%;   
-}
-.product-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
+  height: 650px;
+  background-color:white;
+ 
+  
+} 
+.product-box-inner{
+  position:relative;
+  height:100%;
+  width:100%;
+  trasform-style:preserve-3d;
+  transition:transform 0.5s;
+  
+  
+} 
+.product-box:hover .product-box-inner{
+  transform:rotateY(180deg);
+   backface-visibility: hidden;
+  
+} 
 
+
+.product-body{
+  inset:0;
+  display:grid;
+  position: absolute;
+  place-items:center;
+  
+  border-radius:8px;
+ 
+  
+  
+  
+}   
+
+.product-body--front{
+ background-color:white;
+  
+  
+  
+  
+}  
+.product-body--back{
+ position:absolute;
+ transform:rotateY(180deg);
+z-index:-1;
+ 
+}  
 .title-container{
   
   color:var(--menu-bg);
@@ -288,6 +330,11 @@ position:fixed;
 }
 .prodotti-immagine{
   width:20%;
+  }
+
+.prodotti-descrizione{
+  width:100%;
+  height:100%;
   }
 /*gallery*/
 .gallery{
@@ -470,6 +517,41 @@ button[type="submit"]:hover {
   background-color:#952B39 ;
 }
 
+/*caratteristiche vino*/
+.wine-characteristics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.characteristic {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  flex: 1;
+  font-weight: bold;
+}
+
+.bar {
+  width: 200px;
+  height: 10px;
+  background-color: #ebebeb;
+  margin-right: 10px;
+  position: relative;
+}
+
+.fill {
+  height: 100%;
+  background-color: #7fc97f;
+}
+
+.preference {
+  font-size: 14px;
+  color: #666666;
+}
 
 /*footer*/
 footer {

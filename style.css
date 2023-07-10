@@ -281,6 +281,7 @@ position:fixed;
 .product-box-inner{
   position:relative;
   display:flex;
+  
   height:100%;
   width:100%;
   trasform-style:preserve-3d;
@@ -298,8 +299,9 @@ position:fixed;
 .product-body{
   inset:0;
   display:grid;
-  position: absolute;
+  position: relative;
   place-items:center;
+  box-size:content-box;
   
   border-radius:8px;
  
@@ -310,6 +312,8 @@ position:fixed;
 
 .product-body--front{
  background-color:white;
+  height:100%;
+  
   
   
   
@@ -341,7 +345,7 @@ z-index:-1;
 
 .prodotti-descrizione{
   width:100%;
-  height:100%;
+  height:80%;
   }
 /*gallery*/
 .gallery{

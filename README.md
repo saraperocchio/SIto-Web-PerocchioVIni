@@ -5,7 +5,7 @@ Realizzato durante il corso di Web Design 1-Acme Novara
 Questo __repository__ serve a creare un nuovo sito monopagina responsive per l'azienda
 
 ## Elementi principali della pagina:
-*_Nav bar menu e hamburger menu per rendere la pagina responsive_
+* _Nav bar menu e hamburger menu per rendere la pagina responsive_
 * _Nome azienda_ 
 * _Logo azienda_
 * _Descrizione dell'azienda (chi siamo, dove trovarci)_
@@ -13,19 +13,19 @@ Questo __repository__ serve a creare un nuovo sito monopagina responsive per l'a
 * _Gallery_
 * _Footer con contatti e profili social dell'azienda_
 * _Form per contattare facilmente l'azienda_
-*_Cookies_
+* _Cookies_
 
 ## Siti e strumenti utilizzati:
-*_Bootstrap v5.0.2_
-*_Fontawesome_
-*_Google Font_
-*_Codepen.io_
-*_Chat Gpt_
+* _Bootstrap v5.0.2_
+* _Fontawesome_
+* _Google Font_
+* _Codepen.io_
+* _Chat Gpt_
 
 ## Caratteristiche struttura e elementi pagina
-*_Html5_
-*_Css personale esterno_
-*_Javascript_
+* _Html5_
+* _Css personale esterno_
+* _Javascript_
 
 
 

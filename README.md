@@ -29,4 +29,4 @@ Questo __repository__ serve a creare un nuovo sito monopagina responsive per l'a
 
 
 
-* _link del sito: __[https://fancy-macaron-687e3e.netlify.app/](https://perocchiovini.netlify.app/)__
+* link del sito: _[perocchiovini.netlify.app](https://perocchiovini.netlify.app/)_

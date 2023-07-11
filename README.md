@@ -15,14 +15,14 @@ Questo __repository__ serve a creare un nuovo sito monopagina responsive per l'a
 * _Form per contattare facilmente l'azienda_
 *_Cookies_
 
-##Siti e strumenti utilizzati:
+## Siti e strumenti utilizzati:
 *_Bootstrap v5.0.2_
 *_Fontawesome_
 *_Google Font_
 *_Codepen.io_
 *_Chat Gpt_
 
-##Caratteristiche struttura e elementi pagina
+## Caratteristiche struttura e elementi pagina
 *_Html5_
 *_Css personale esterno_
 *_Javascript_

@@ -159,7 +159,6 @@ a{
 /*bottoni*/
 .button{
   font-size: 1rem;
-  text-transform: uppercase;
   background: #952B39;
   color:white;
   border-radius: 4px;

@@ -54,7 +54,6 @@ a{
 
 .header {
   background-color: var(--menu-bg);
-position:absolute;
   top: 0;
   left: 0;
   z-index: 3;
@@ -80,7 +79,7 @@ position:absolute;
   padding: 1px 10px;
 }
 .header-logo img {
-  width:30%;
+  width:25%;
   min-width: 4px;
   height: auto;
 }

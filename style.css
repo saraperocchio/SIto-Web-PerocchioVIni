@@ -506,6 +506,8 @@ transform:rotateY(180deg);
   margin-right:30px;
   font-size: 12px;
   color: #333;
+  justify-content:center;
+  align-items:center;
 }
 .checkbox-btn {
   display: inline-block;
@@ -565,7 +567,7 @@ button[type="submit"]:hover {
 .fill {
   height: 100%;
   background-color: var(--red-color);
-   margin-left: 10px;
+  margin-left: 10px;
 }
 .preference {
   font-size: 14px;

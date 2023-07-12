@@ -452,6 +452,8 @@ transform:rotateY(180deg);
   background-color: var(--red-color);
   padding: 60px 0;
   text-align: center;
+  align-items:center;
+  justify-content:center;
   color:var(--menu-bg);
   display:flex;  
 }
@@ -554,7 +556,7 @@ button[type="submit"]:hover {
   width: 180px;
   height: 10px;
   background-color: #ebebeb;
-  margin-right : 10px;
+  margin-right: 10px;
   margin-left:10px;
   position: relative;
 }
@@ -587,7 +589,7 @@ button[type="submit"]:hover {
 }
 .cookie-accept {
   font-size: 14px;
-  background-color: #333;
+  background-color: var(--red-color);
   color: white;
   padding: 5px 10px;
   border: none;

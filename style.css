@@ -196,7 +196,10 @@ a{
   width:100%;
     height:100%;
 }
-
+/*chi siamo*/
+#chi-siamo{
+  padding-top:40px;
+}
 /*prodotti*/
 /*card*/
 .card{
@@ -245,7 +248,7 @@ transform:rotateY(180deg);
   flex-direction: column;
   align-items: center;
   text-align: justify;
-  padding-top:20px;
+  padding-top:70px;
 }
 .prodotti .col-md-6{
   margin-bottom:30px;
@@ -338,7 +341,7 @@ transform:rotateY(180deg);
 /*fine servizi*/
 /*gallery*/
 #gallery{
-  padding-top:20px; 
+  padding-top:70px; 
 }
 #galleria {
   background-color: #f8f8f8;

@@ -54,7 +54,7 @@ a{
 
 .header {
   background-color: var(--menu-bg);
-position:fixed;
+position:relative;
   top: 0;
   left: 0;
   z-index: 3;
@@ -68,7 +68,7 @@ position:fixed;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  z-index: 3;
+  z-index:3;
 }
 /*logo*/
 .header-logo
@@ -197,10 +197,7 @@ position:fixed;
   width:100%;
     height:100%;
 }
-/*chi-siamo*/
-#chi-siamo{
-  padding-top:40px;
-}
+
 /*prodotti*/
 /*card*/
 .card{
@@ -249,7 +246,7 @@ transform:rotateY(180deg);
   flex-direction: column;
   align-items: center;
   text-align: justify;
-  padding-top:70px;  
+  padding-top:20px;
 }
 .prodotti .col-md-6{
   margin-bottom:30px;
@@ -342,7 +339,7 @@ transform:rotateY(180deg);
 /*fine servizi*/
 /*gallery*/
 #gallery{
-  padding-top:70px; 
+  padding-top:20px; 
 }
 #galleria {
   background-color: #f8f8f8;

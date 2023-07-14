@@ -24,8 +24,8 @@ Questo __repository__ serve a creare un nuovo sito monopagina responsive per l'a
 
 ## Caratteristiche struttura e elementi pagina
 * _Html5_
-* _Css personale esterno_
-* _Javascript_
+* _CSS personale esterno_
+* _JavaScript_
 
 
 

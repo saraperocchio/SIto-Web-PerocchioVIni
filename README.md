@@ -1,9 +1,9 @@
-# Sito web azienda "Perocchio Vini"
-Anno Accademico 2022-2023
-Perocchio Sara
-m.845
-Corso di Web Design
-Baccan Matteo
+# Sito web azienda "Perocchio Vini" </br>
+Anno Accademico 2022-2023</br>
+Perocchio Sara</br>
+m.845</br>
+Corso di Web Design</br>
+Baccan Matteo</br>
 Realizzazione di una nuova grafica di sito aziendale mono-pagina per l'azienda "Perocchio Vini" </br>
 Realizzato durante il corso di Web Design 1-Acme Novara
 ## Scopo del repository
